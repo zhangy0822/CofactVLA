@@ -1,0 +1,18 @@
+CofactVLA research code preparation
+
+This source distribution includes modified code from Hugging Face LeRobot
+(https://github.com/huggingface/lerobot), with its existing Apache-2.0 license
+and source copyright notices retained. The supplied checkout's HEAD was
+913041e7 (fix(ci): latest deps tests permissions (#3296)); this identifies
+upstream provenance, not the final CofactVLA experiment revision.
+
+PI05 includes components attributed in the source to Physical Intelligence / OpenPI.
+The PiPer adapter was recovered from the accompanying author-provided
+lerobot-piper source directory. The vendor SDK is installed separately.
+
+CofactVLA modifications concern the PI05 counterfactual branches, action
+projection, feature covariance intervention, experiment launchers and PiPer
+integration. This repository is not an official Hugging Face release.
+
+See docs/release/IMPLEMENTATION.md for the modifications made in this cleanup.
+Dataset and model weights are not redistributed in this source snapshot.
