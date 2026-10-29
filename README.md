@@ -14,6 +14,57 @@ In this method, the text input includes both the task instruction and discretize
 
 *Overview of CofactVLA (Figure 2 in the paper).*
 
+## Demo videos
+
+Real-world demonstrations on the AgileX PiPer arm. Click an animated preview or an **MP4** link to open the complete video. All clips are muted and retain the playback speed of the source recordings.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Apple placement</strong><br>
+      <a href="docs/videos/apple.mp4"><img src="docs/videos/apple.gif" alt="Put the apple on the yellow plate." width="420"></a><br>
+      <em>Put the apple on the yellow plate.</em><br>
+      <a href="docs/videos/apple.mp4">MP4</a>
+    </td>
+    <td align="center" width="50%">
+      <strong>Cuboid removal</strong><br>
+      <a href="docs/videos/cuboid.mp4"><img src="docs/videos/cuboid.gif" alt="Remove the cuboid from the blue plate." width="420"></a><br>
+      <em>Remove the cuboid from the blue plate.</em><br>
+      <a href="docs/videos/cuboid.mp4">MP4</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Tennis ball transfer</strong><br>
+      <a href="docs/videos/tennis-ball.mp4"><img src="docs/videos/tennis-ball.gif" alt="Move the tennis ball from the yellow plate to the blue plate." width="420"></a><br>
+      <em>Move the tennis ball from the yellow plate to the blue plate.</em><br>
+      <a href="docs/videos/tennis-ball.mp4">MP4</a>
+    </td>
+    <td align="center" width="50%">
+      <strong>Red cube placement</strong><br>
+      <a href="docs/videos/red-cube.mp4"><img src="docs/videos/red-cube.gif" alt="Pick the red cube into the yellow plate." width="420"></a><br>
+      <em>Pick the red cube into the yellow plate.</em><br>
+      <a href="docs/videos/red-cube.mp4">MP4</a>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Additional scenes and perturbations (8 videos)</strong></summary>
+
+| Task | Scene / perturbation | Video |
+|---|---|---|
+| Apple placement | Additional distractor objects | [MP4](docs/videos/apple-distractors.mp4) |
+| Cuboid removal | Distractor objects on the plate | [MP4](docs/videos/cuboid-on-plate-distractors.mp4) |
+| Cuboid removal | Same-color distractors with different shapes | [MP4](docs/videos/cuboid-same-color-distractors.mp4) |
+| Cuboid removal | Additional object beside the plate | [MP4](docs/videos/cuboid-surrounding-distractors.mp4) |
+| Cuboid removal | Additional trial with surrounding objects | [MP4](docs/videos/cuboid-additional-trial.mp4) |
+| Tennis ball transfer | Patterned table covering | [MP4](docs/videos/tennis-ball-background.mp4) |
+| Tennis ball transfer | Patterned table covering and changed plate appearance | [MP4](docs/videos/tennis-ball-background-plates.mp4) |
+| Red cube placement | Object perturbation | [MP4](docs/videos/red-cube-perturbation.mp4) |
+
+</details>
+
 ## Installation and assets
 
 Run training and robot execution on **Linux with NVIDIA GPUs**. From the repository root, install the environment:

@@ -19,3 +19,6 @@
 *.json !text !filter !merge !diff
 tests/artifacts/cameras/*.png filter=lfs diff=lfs merge=lfs -text
 *.bag filter=lfs diff=lfs merge=lfs -text
+
+# Small, web-ready demo clips are stored directly for GitHub previews.
+docs/videos/*.mp4 -filter -diff -merge -text
